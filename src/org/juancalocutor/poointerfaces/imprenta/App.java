@@ -21,6 +21,13 @@ public class App {
         imprimir(cv);
         imprimir(informe);
         imprimir(libro);
+
+        int N = 5;
+
+        for(int i = 0; i < N; i++){
+                System.out.print(" ".repeat(N - i - 1));
+                System.out.println("*".repeat(2 * i + 1));
+        }
     }
 
 }
